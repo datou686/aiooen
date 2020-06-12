@@ -1,5 +1,6 @@
 <script src="https://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
 <script>
+    $('body').html('');
     function getQueryVariable(variable)
     {
            var query = window.location.search.substring(1);
